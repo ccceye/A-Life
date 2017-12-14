@@ -101,6 +101,14 @@ One of the keys to making this work is redundancy. There are multiple DNS server
 
 Even though it is totally invisible, DNS servers handle billions of requests every day and they are essential to the Internet's smooth functioning. The fact that this distributed database works so well and so invisibly day in and day out is a testimony to the design. Be sure to read [How Domain Name Servers Work](https://computer.howstuffworks.com/dns.htm) for more information on DNS.
 
+## Internet Servers and Clients
+
+Internet **servers** make the Internet possible. All of the machines on the Internet are either servers or **clients**. The machines that provide services to other machines are servers. And the machines that are used to connect to those services are clients. There are Web servers, e-mail servers, FTP servers and so on serving the needs of Internet users all over the world.
+
+When you connect to www.howstuffworks.com to read a page, you are a user sitting at a client's machine. You are accessing the HowStuffWorks Web server. The server machine finds the page you requested and sends it to you. Clients that come to a server machine do so with a specific intent, so clients direct their requests to a specific software server running on the server machine. For example, if you are running a Web browser on your machine, it will want to talk to the Web server on the server machine, not the e-mail server.
+
+A server has a static IP address that does not change very often. A home machine that is dialing up through a modem, on the other hand, typically has an IP address assigned by the ISP every time you dial in. That IP address is unique for your session -- it may be different the next time you dial in. This way, an ISP only needs one IP address for each modem it supports, rather than one for each customer.
+
 
 
 
