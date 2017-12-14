@@ -69,9 +69,25 @@ The first solution to the problem was a simple text file maintained by the Netwo
 
 ## URL: Uniform Resource Locator
 
-When you use the Web or send an e-mail message, you use a domain name to do it. For example, the **Uniform Resource Locator** (URL) "https://www.howstuffworks.com" contains the domain name howstuffworks.com. So does this e-mail address: example@howstuffworks.com. Every time you use a domain name, you use the Internet's DNS servers to translate the human-readable domain name into the machine-readable IP address. Check out How Domain Name Servers Work for more in-depth information on DNS.
+When you use the Web or send an e-mail message, you use a domain name to do it. For example, the **Uniform Resource Locator** (URL) "https://www.howstuffworks.com" contains the domain name howstuffworks.com. So does this e-mail address: example@howstuffworks.com. Every time you use a domain name, you use the Internet's DNS servers to translate the human-readable domain name into the machine-readable IP address. Check out [How Domain Name Servers Work](https://computer.howstuffworks.com/dns.htm) for more in-depth information on DNS.
 
 Top-level domain names, also called first-level domain names, include .COM, .ORG, .NET, .EDU and .GOV. Within every top-level domain there is a huge list of second-level domains. For example, in the .COM first-level domain there is:
+
+- HowStuffWorks
+- Yahoo
+- Microsoft
+
+Every name in the .COM top-level domain must be unique. The left-most word, like www, is the host name. It specifies the name of a specific machine (with a specific IP address) in a domain. A given domain can, potentially, contain millions of host names as long as they are all unique within that domain.
+
+DNS servers accept requests from programs and other name servers to convert domain names into IP addresses. When a request comes in, the DNS server can do one of four things with it:
+
+1. It can answer the request with an IP address because it already knows the IP address for the requested domain.
+
+2. It can contact another DNS server and try to find the IP address for the name requested. It may have to do this multiple times.
+
+3. It can say, "I don't know the IP address for the domain you requested, but here's the IP address for a DNS server that knows more than I do."
+
+4. It can return an error message because the requested domain name is invalid or does not exist.
 
 
 
