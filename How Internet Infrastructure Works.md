@@ -61,6 +61,13 @@ Out of the almost 4.3 billion possible combinations, certain values are restrict
 
 The octets serve a purpose other than simply separating the numbers. They are used to create **classes** of IP addresses that can be assigned to a particular business, government or other entity based on size and need. The octets are split into two sections: **Net and Host**. The Net section always contains the first octet. It is used to identify the network that a computer belongs to. Host (sometimes referred to as **Node**) identifies the actual computer on the network. The Host section always contains the last octet. There are five IP classes plus certain special addresses. You can learn more about IP classes at [What is an IP address?](https://computer.howstuffworks.com/internet/basics/question549.htm).
 
+## Internet Protocol: Domain Name System
+
+When the Internet was in its infancy, it consisted of a small number of computers hooked together with modems and telephone lines. You could only make connections by providing the IP address of the computer you wanted to establish a link with. For example, a typical IP address might be 216.27.22.162. This was fine when there were only a few hosts out there, but it became unwieldy as more and more systems came online.
+
+The first solution to the problem was a simple text file maintained by the Network Information Center that mapped names to IP addresses. Soon this text file became so large it was too cumbersome to manage. In 1983, the University of Wisconsin created the **Domain Name System (DNS)**, which maps text names to IP addresses automatically. This way you only need to remember [www.howstuffworks.com](https://www.howstuffworks.com/), for example, instead of HowStuffWorks.com's IP address.
+
+
 
 
 
