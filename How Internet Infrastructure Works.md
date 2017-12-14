@@ -29,6 +29,8 @@ In the real Internet, dozens of large Internet providers interconnect at NAPs in
 
 All of these networks rely on NAPs, backbones and routers to talk to each other. What is incredible about this process is that a message can leave one computer and travel halfway across the world through several different networks and arrive at another computer in a fraction of a second!
 
+![ScreenShot11.png](./ScreenShot11.png)
+
 The routers determine where to send information from one computer to another. Routers are specialized computers that send your messages and those of every other Internet user speeding to their destinations along thousands of pathways. A router has two separate, but related, jobs:
 
 
