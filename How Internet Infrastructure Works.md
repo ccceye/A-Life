@@ -109,6 +109,17 @@ When you connect to www.howstuffworks.com to read a page, you are a user sitting
 
 A server has a static IP address that does not change very often. A home machine that is dialing up through a modem, on the other hand, typically has an IP address assigned by the ISP every time you dial in. That IP address is unique for your session -- it may be different the next time you dial in. This way, an ISP only needs one IP address for each modem it supports, rather than one for each customer.
 
+## Ports and HTTP
+
+Any server machine makes its services available using numbered ports -- one for each service that is available on the server. For example, if a server machine is running a Web server and a file transfer protocol (FTP) server, the Web server would typically be available on port 80, and the FTP server would be available on port 21. Clients connect to a service at a specific IP address and on a specific port number.
+
+Once a client has connected to a service on a particular port, it accesses the service using a specific protocol. Protocols are often text and simply describe how the client and server will have their conversation. Every Web server on the Internet conforms to the **hypertext transfer protocol (HTTP)**. You can learn more about Internet servers, ports and protocols by reading How Web Servers Work.
+
+Networks, routers, NAPs, ISPs, DNS and powerful servers all make the Internet possible. It is truly amazing when you realize that all this information is sent around the world in a matter of milliseconds! The components are extremely important in modern life -- without them, there would be no Internet. And without the Internet, life would be very different indeed for many of us.
+
+
+
+
 
 
 
