@@ -67,6 +67,12 @@ When the Internet was in its infancy, it consisted of a small number of computer
 
 The first solution to the problem was a simple text file maintained by the Network Information Center that mapped names to IP addresses. Soon this text file became so large it was too cumbersome to manage. In 1983, the University of Wisconsin created the **Domain Name System (DNS)**, which maps text names to IP addresses automatically. This way you only need to remember [www.howstuffworks.com](https://www.howstuffworks.com/), for example, instead of HowStuffWorks.com's IP address.
 
+## URL: Uniform Resource Locator
+
+When you use the Web or send an e-mail message, you use a domain name to do it. For example, the **Uniform Resource Locator** (URL) "https://www.howstuffworks.com" contains the domain name howstuffworks.com. So does this e-mail address: example@howstuffworks.com. Every time you use a domain name, you use the Internet's DNS servers to translate the human-readable domain name into the machine-readable IP address. Check out How Domain Name Servers Work for more in-depth information on DNS.
+
+Top-level domain names, also called first-level domain names, include .COM, .ORG, .NET, .EDU and .GOV. Within every top-level domain there is a huge list of second-level domains. For example, in the .COM first-level domain there is:
+
 
 
 
